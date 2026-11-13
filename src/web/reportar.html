@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reportar rescate | Sistema de Rescate Animal</title>
+</head>
+
+<body>
+
+    <a href="#contenido">Saltar al contenido principal</a>
+
+    <header>
+        <img
+            src="assets/img/logo-refugio.svg"
+            alt="Logotipo del Sistema de Rescate y Adopción Animal"
+            width="120"
+            height="120"
+        >
+
+        <h1>Sistema de Control de Rescate y Adopción Animal</h1>
+
+        <p>Registro de un nuevo animal rescatado.</p>
+    </header>
+
+    <nav aria-label="Navegación principal">
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+
+            <li>
+                <a href="reportar.html" aria-current="page">
+                    Reportar rescate
+                </a>
+            </li>
+
+            <li>
+                <a href="rescates.html">Casos registrados</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="contenido">
+
+        <section aria-labelledby="formulario-titulo">
+            <h2 id="formulario-titulo">Formulario de nuevo rescate</h2>
+
+            <article>
+                <h3>Datos del animal rescatado</h3>
+
+                <p>
+                    Los campos identificados como obligatorios deben ser
+                    completados antes de enviar el formulario.
+                </p>
+
+                <form action="#" method="post">
+
+                    <p>
+                        <label for="titulo">
+                            Título del caso o nombre provisional:
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="text"
+                            id="titulo"
+                            name="titulo"
+                            maxlength="100"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="categoria">Categoría del animal:</label>
+                    </p>
+
+                    <p>
+                        <select id="categoria" name="categoria" required>
+                            <option value="">
+                                Seleccione una categoría
+                            </option>
+
+                            <option value="perro">Perro</option>
+                            <option value="gato">Gato</option>
+
+                            <option value="fauna-silvestre">
+                                Fauna silvestre
+                            </option>
+                        </select>
+                    </p>
+
+                    <fieldset>
+                        <legend>Nivel de urgencia médica</legend>
+
+                        <p>
+                            <input
+                                type="radio"
+                                id="urgencia-alta"
+                                name="urgencia"
+                                value="alta"
+                                required
+                            >
+
+                            <label for="urgencia-alta">Alta</label>
+                        </p>
+
+                        <p>
+                            <input
+                                type="radio"
+                                id="urgencia-media"
+                                name="urgencia"
+                                value="media"
+                            >
+
+                            <label for="urgencia-media">Media</label>
+                        </p>
+
+                        <p>
+                            <input
+                                type="radio"
+                                id="urgencia-baja"
+                                name="urgencia"
+                                value="baja"
+                            >
+
+                            <label for="urgencia-baja">Baja</label>
+                        </p>
+                    </fieldset>
+
+                    <p>
+                        <label for="descripcion">
+                            Descripción del estado en que fue encontrado:
+                        </label>
+                    </p>
+
+                    <p>
+                        <textarea
+                            id="descripcion"
+                            name="descripcion"
+                            rows="8"
+                            cols="50"
+                            required
+                        ></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Registrar caso</button>
+                        <button type="reset">Limpiar formulario</button>
+                    </p>
+
+                </form>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <address>
+            Contacto:
+            <a href="mailto:correo@ejemplo.com">correo@ejemplo.com</a>
+        </address>
+
+        <p>
+            <small>
+                &copy; 2026 Sistema de Control de Rescate y Adopción Animal.
+            </small>
+        </p>
+    </footer>
+
+</body>
+
+</html>
