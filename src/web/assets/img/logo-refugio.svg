@@ -1,0 +1,65 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="160"
+    height="160"
+    viewBox="0 0 160 160"
+    role="img"
+    aria-labelledby="titulo-logo descripcion-logo"
+>
+    <title id="titulo-logo">Logo de Refugio Vida Animal</title>
+
+    <desc id="descripcion-logo">
+        Huella de animal de color verde dentro de un círculo.
+    </desc>
+
+    <circle
+        cx="80"
+        cy="80"
+        r="74"
+        fill="#e8f5e9"
+        stroke="#2e7d32"
+        stroke-width="8"
+    />
+
+    <ellipse
+        cx="45"
+        cy="52"
+        rx="12"
+        ry="17"
+        fill="#2e7d32"
+    />
+
+    <ellipse
+        cx="70"
+        cy="38"
+        rx="12"
+        ry="18"
+        fill="#2e7d32"
+    />
+
+    <ellipse
+        cx="95"
+        cy="38"
+        rx="12"
+        ry="18"
+        fill="#2e7d32"
+    />
+
+    <ellipse
+        cx="118"
+        cy="55"
+        rx="12"
+        ry="17"
+        fill="#2e7d32"
+    />
+
+    <path
+        d="M80 65
+           C58 65 42 84 42 105
+           C42 124 58 133 74 122
+           C78 119 82 119 86 122
+           C102 133 118 124 118 105
+           C118 84 102 65 80 65Z"
+        fill="#2e7d32"
+    />
+</svg>
